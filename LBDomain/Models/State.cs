@@ -7,10 +7,7 @@
             Started = 1,
             InProgress =2,
             DecisionPending =3,
-            Completed
+            Completed =4
         }
-
-
-
     }
 }

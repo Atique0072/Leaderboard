@@ -13,6 +13,5 @@
             public Referee Referee { get; set; }
             public State State { get; set; }
         }
-
     }
 }

@@ -491,5 +491,55 @@
             
             </summary>
         </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.Competitor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.Game">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.Referee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.Contest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.HeadToHeadContest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeaderboardAPI.Context.LeaderboardApiContext.Leaderboard">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:LeaderboardAPI.Migrations.CreateCompetitor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LeaderboardAPI.Migrations.CreateCompetitor.Down">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:LeaderboardAPI.Migrations.CreateGame">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:LeaderboardAPI.Migrations.CreateGame.Down">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>

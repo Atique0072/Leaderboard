@@ -7,9 +7,9 @@ namespace LBDomain
         public class Competitor
         {
             public int Id { get; set; }
-            public String FirstName { get; set; }
-            public String LastName { get; set; }
-            public String EmailId { get; set; }
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public string EmailId { get; set; }
         }
     }
 }

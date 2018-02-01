@@ -7,7 +7,7 @@ namespace LBDomain
         public class Game
         {
             public int Id { get; set; }
-            public String Name { get; set; }
+            public string Name { get; set; }
         }
     }
 }

@@ -190,6 +190,34 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801312332264_CreateCompetitor.cs" />
+    <Compile Include="Migrations\201801312332264_CreateCompetitor.Designer.cs">
+      <DependentUpon>201801312332264_CreateCompetitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010016175_CreateGame.cs" />
+    <Compile Include="Migrations\201802010016175_CreateGame.Designer.cs">
+      <DependentUpon>201802010016175_CreateGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010037305_CreateReferee.cs" />
+    <Compile Include="Migrations\201802010037305_CreateReferee.Designer.cs">
+      <DependentUpon>201802010037305_CreateReferee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010039260_CreateReferee1.cs" />
+    <Compile Include="Migrations\201802010039260_CreateReferee1.Designer.cs">
+      <DependentUpon>201802010039260_CreateReferee1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010041308_CreateContest.cs" />
+    <Compile Include="Migrations\201802010041308_CreateContest.Designer.cs">
+      <DependentUpon>201802010041308_CreateContest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010045316_HeadToHeadContest.cs" />
+    <Compile Include="Migrations\201802010045316_HeadToHeadContest.Designer.cs">
+      <DependentUpon>201802010045316_HeadToHeadContest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802010052496_Createleaderboard.cs" />
+    <Compile Include="Migrations\201802010052496_Createleaderboard.Designer.cs">
+      <DependentUpon>201802010052496_Createleaderboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -230,7 +258,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -267,6 +297,29 @@
       <Project>{c75747b4-19d8-4f13-bc77-2c644277ca5d}</Project>
       <Name>LBDomain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801312332264_CreateCompetitor.resx">
+      <DependentUpon>201801312332264_CreateCompetitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010016175_CreateGame.resx">
+      <DependentUpon>201802010016175_CreateGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010037305_CreateReferee.resx">
+      <DependentUpon>201802010037305_CreateReferee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010039260_CreateReferee1.resx">
+      <DependentUpon>201802010039260_CreateReferee1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010041308_CreateContest.resx">
+      <DependentUpon>201802010041308_CreateContest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010045316_HeadToHeadContest.resx">
+      <DependentUpon>201802010045316_HeadToHeadContest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802010052496_Createleaderboard.resx">
+      <DependentUpon>201802010052496_Createleaderboard.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
